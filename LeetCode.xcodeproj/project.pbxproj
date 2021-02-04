@@ -6,10 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		8A5CA61C25CC39DE0065231B /* maxConsecutiveOnes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CA61925CC39C50065231B /* maxConsecutiveOnes.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		8A5CA60C25CC38770065231B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,8 +20,9 @@
 
 /* Begin PBXFileReference section */
 		8A5CA60E25CC38770065231B /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A5CA61125CC38770065231B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8A5CA61125CC38770065231B /* template.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = template.cpp; sourceTree = "<group>"; };
 		8A5CA61925CC39C50065231B /* maxConsecutiveOnes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maxConsecutiveOnes.cpp; sourceTree = "<group>"; };
+		8A5CA62725CC5EE20065231B /* numEvenDigitNumbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = numEvenDigitNumbers.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +55,19 @@
 		8A5CA61025CC38770065231B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				8A5CA61125CC38770065231B /* main.cpp */,
-				8A5CA61925CC39C50065231B /* maxConsecutiveOnes.cpp */,
+				8A5CA61E25CC5E1A0065231B /* Arrays 101 */,
+				8A5CA61125CC38770065231B /* template.cpp */,
 			);
 			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		8A5CA61E25CC5E1A0065231B /* Arrays 101 */ = {
+			isa = PBXGroup;
+			children = (
+				8A5CA61925CC39C50065231B /* maxConsecutiveOnes.cpp */,
+				8A5CA62725CC5EE20065231B /* numEvenDigitNumbers.cpp */,
+			);
+			path = "Arrays 101";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +126,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A5CA61C25CC39DE0065231B /* maxConsecutiveOnes.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
