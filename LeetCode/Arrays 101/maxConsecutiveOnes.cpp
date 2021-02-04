@@ -49,3 +49,8 @@ int main(){
     cout << "Elapsed Time(s): " << elapsedTime / 1e9 << endl;
     return 0;
 }
+
+
+//Test case 1: 
+// 6
+// 1 0 1 1 0 1

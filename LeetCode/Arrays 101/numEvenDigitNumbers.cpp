@@ -8,6 +8,8 @@ int main() {
     //Start clock
     auto start = chrono::steady_clock::now();
     
+    
+    
     //Printing runtime
     auto end = chrono::steady_clock::now();
     double elapsedTime = double(chrono::duration_cast<chrono::nanoseconds>(end - start).count());
