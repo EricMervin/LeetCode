@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A5CA63025CC618E0065231B /* numEvenDigitNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CA62725CC5EE20065231B /* numEvenDigitNumbers.cpp */; };
+		8A5CA63425CC72490065231B /* squareSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CA63325CC703F0065231B /* squareSortedArray.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +27,7 @@
 		8A5CA61125CC38770065231B /* template.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = template.cpp; sourceTree = "<group>"; };
 		8A5CA61925CC39C50065231B /* maxConsecutiveOnes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maxConsecutiveOnes.cpp; sourceTree = "<group>"; };
 		8A5CA62725CC5EE20065231B /* numEvenDigitNumbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = numEvenDigitNumbers.cpp; sourceTree = "<group>"; };
+		8A5CA63325CC703F0065231B /* squareSortedArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = squareSortedArray.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +71,7 @@
 			children = (
 				8A5CA61925CC39C50065231B /* maxConsecutiveOnes.cpp */,
 				8A5CA62725CC5EE20065231B /* numEvenDigitNumbers.cpp */,
+				8A5CA63325CC703F0065231B /* squareSortedArray.cpp */,
 			);
 			path = "Arrays 101";
 			sourceTree = "<group>";
@@ -130,7 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A5CA63025CC618E0065231B /* numEvenDigitNumbers.cpp in Sources */,
+				8A5CA63425CC72490065231B /* squareSortedArray.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
