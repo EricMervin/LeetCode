@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8A5CA63025CC618E0065231B /* numEvenDigitNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CA62725CC5EE20065231B /* numEvenDigitNumbers.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		8A5CA60C25CC38770065231B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -126,6 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A5CA63025CC618E0065231B /* numEvenDigitNumbers.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -54,3 +54,4 @@ int main(){
 //Test case 1: 
 // 6
 // 1 0 1 1 0 1
+// Ans: 2
